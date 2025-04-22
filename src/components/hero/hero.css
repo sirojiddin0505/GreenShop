@@ -1,9 +1,14 @@
-
+.hero__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
 .hero__left{
     max-width: 100%;
     width: 310px;
     height: auto;
     background-color: rgba(251, 251, 251, 1);
+    padding: 30px;
 }
 .left__subtitle{
     font-weight: 700;
@@ -38,6 +43,7 @@
     border-radius: 6px;
 }
 .left__input{
+    outline: none;
     border: none;
     background-color: rgba(70, 163, 88, 1);
     padding: 5px 0;
@@ -45,7 +51,104 @@
 .left__btn:hover{
     opacity: 80%;
 }
+.hero__left__end{
+    margin: 30px 0;
+}
 .left__img{
     max-width: 100%;
     width: 300px;
+}
+.hero__right{
+    max-width: 100%;
+    width: 830px;
+    padding: 30px;
+}
+.right__subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;  
+    color: rgba(61, 61, 61, 1); 
+}
+.right__subtitle:hover{
+    font-weight: 700;
+    color: rgba(70, 163, 88, 1);
+    border-bottom: 2px solid;
+}
+.right__start{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 20px;
+}
+select{
+    margin-left: 50px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    outline: none;
+    background-color: rgba(251, 251, 251, 1);
+    color: blue;
+    font-size: 18px;
+}
+.right__title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+    padding: 8px 0;
+}
+.right__end{
+    gap: 10px;
+}
+.hero__boxs{
+    text-align: center;
+    padding: 10px;
+}
+.hero__pic{
+    max-width: 100%;
+    width: 220px;
+}
+.right__text{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: rgba(70, 163, 88, 1);
+}
+.right__end{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:1120px) {
+    .right__end{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:810px) {
+    .hero__pic{
+        max-width: 60%;
+    }
+    .hero__boxs{
+        width: 190px;
+    }
+    .right__title, .right__text{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:670px){
+    .hero__boxs{
+        width: 250px;
+    }
+} 
+@media screen and (max-width:520px){
+    .hero__container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hero__left{
+        margin: 0 auto;
+    }
 }
