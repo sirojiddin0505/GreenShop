@@ -1,0 +1,51 @@
+
+.hero__left{
+    max-width: 100%;
+    width: 310px;
+    height: auto;
+    background-color: rgba(251, 251, 251, 1);
+}
+.left__subtitle{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+    padding: 20px 0;
+}
+.left__span{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+}
+.left__title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: rgba(61, 61, 61, 1);
+}
+.left__title:hover{
+    color: rgba(70, 163, 88, 1);
+}
+.left__btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(251, 251, 251, 1);
+    background-color: rgba(70, 163, 88, 1);
+    padding: 8px 24px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 6px;
+}
+.left__input{
+    border: none;
+    background-color: rgba(70, 163, 88, 1);
+    padding: 5px 0;
+}
+.left__btn:hover{
+    opacity: 80%;
+}
+.left__img{
+    max-width: 100%;
+    width: 300px;
+}

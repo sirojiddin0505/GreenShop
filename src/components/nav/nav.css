@@ -26,8 +26,6 @@ nav{
 .nav__text:hover{
     /* font-weight: 700; */
     font-size: 16px;
-    text-decoration: underline;
-    text-underline-offset: 20px;
     color: rgba(70, 163, 88, 1);
 }
 .nav__btn{
@@ -48,11 +46,11 @@ nav{
 }
 .hum__menu{
     display: none;
-    font-size: 35px;
-    font-weight: 700;
-    color: rgba(61, 61, 61, 1);
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(51, 48, 48);
+    cursor: pointer;
 }
-
 @media screen and (max-width:650px) {
     .nav__btn, .nav__center{
         display: none;
