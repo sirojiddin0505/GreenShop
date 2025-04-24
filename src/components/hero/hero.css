@@ -87,8 +87,9 @@ select{
     padding: 4px 8px;
     border-radius: 6px;
     outline: none;
-    background-color: rgba(251, 251, 251, 1);
-    color: blue;
+    border: none;
+    background-color: rgb(148, 210, 160);
+    color: rgba(251, 251, 251, 1);
     font-size: 18px;
 }
 .right__title{
@@ -104,6 +105,8 @@ select{
 .hero__boxs{
     text-align: center;
     padding: 10px;
+    max-width: 100%;
+    width: 240px;
 }
 .hero__pic{
     max-width: 100%;
@@ -142,6 +145,9 @@ select{
     .hero__boxs{
         width: 250px;
     }
+    select{
+        margin: 0px auto;
+    }
 } 
 @media screen and (max-width:520px){
     .hero__container{
@@ -150,5 +156,15 @@ select{
     }
     .hero__left{
         margin: 0 auto;
+    }
+    .right__start{
+        padding-bottom: 30px;
+    }
+    .hero__boxs{
+        border: 1px solid red;
+        width: 140px;
+    }
+    .right__title, .right__text{
+        font-size: 14px;
     }
 }

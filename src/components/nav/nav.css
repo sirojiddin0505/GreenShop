@@ -19,17 +19,16 @@ nav{
     gap: 50px;
 }
 .nav__text{
-    font-weight: 400;
-    font-size: 16px;  
+    font-weight: 500;
+    font-size: 20px;  
     color: rgba(61, 61, 61, 1);
 }
 .nav__text:hover{
-    /* font-weight: 700; */
-    font-size: 16px;
     color: rgba(70, 163, 88, 1);
+    transition: all 0.5s;
 }
 .nav__btn{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     padding: 8px 17px;  
     color: rgba(255, 255, 255, 1);
