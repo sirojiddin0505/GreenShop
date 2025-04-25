@@ -163,8 +163,9 @@ select{
     .hero__boxs{
         border: 1px solid red;
         width: 140px;
+        padding: 10px 0;
     }
     .right__title, .right__text{
-        font-size: 14px;
+        font-size: 12px;
     }
 }
