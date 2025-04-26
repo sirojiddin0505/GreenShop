@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    padding: 20px;
 }
 .main__right, .main__left{
     display: flex;
@@ -46,5 +47,24 @@
         flex-direction: column;
         justify-content: center;
         margin: 0 auto;
+    }
+}
+@media screen and (max-width:500px) {
+    .main__container{
+        padding: 30px 10px;
+    }
+    .main__img{
+        max-width: 60%;
+    }
+    .main__title{
+        font-size: 16px;
+    }
+    .main__text{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .main__btn{
+        padding: 8px 14px;
+        font-size: 16px;
     }
 }

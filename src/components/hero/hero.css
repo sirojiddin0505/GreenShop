@@ -107,6 +107,8 @@ select{
     padding: 10px;
     max-width: 100%;
     width: 240px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
 }
 .hero__pic{
     max-width: 100%;
@@ -128,6 +130,7 @@ select{
 @media screen and (max-width:1120px) {
     .right__end{
         justify-content: space-around;
+        padding: 20px 0;
     }
 }
 @media screen and (max-width:810px) {
@@ -161,8 +164,7 @@ select{
         padding-bottom: 30px;
     }
     .hero__boxs{
-        border: 1px solid red;
-        width: 140px;
+        width: 150px;
         padding: 10px 0;
     }
     .right__title, .right__text{

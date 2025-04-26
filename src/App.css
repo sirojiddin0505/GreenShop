@@ -4,11 +4,11 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: 'Segoe UI',
+  font-family: 'Franklin Gothic Medium';
 }
 .container{
   max-width: 1300px;
   margin: 0 auto;
   padding: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
